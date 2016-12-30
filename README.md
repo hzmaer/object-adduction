@@ -65,9 +65,23 @@
    
 (7)var obj={
 
-       a:2;
+       a:2
    
-       }
+       };
+   
+   obj2=obj;
+   
+   obj.a=3;
+   
+   console.debug(obj.a);//
+   
+   console.debug(obj2.a);//
+   
+(8)var obj={
+
+       a:2
+   
+       };
    
    obj2=obj;
    
@@ -77,17 +91,8 @@
    
    console.debug(obj2.a);//
    
-(8)var obj={
-
-       a:2;
    
-       }
    
-   obj2=obj;
-   
-   obj2.a=3;
-   
-   alert(obj.a);   
    
 (9)var obj={
 
